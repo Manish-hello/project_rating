@@ -29,3 +29,24 @@
     }
     });
     // owl carousel script end
+
+    //popular teacher section start
+    $('.post-container').owlCarousel({
+      pagination:false,
+      loop:true,
+      margin:7,
+      autoplay:true,
+      autoplayTimeout:5000,
+      responsive:{
+         0:{
+            items:1
+         },
+         600:{
+            items:2
+         },
+         1000:{
+            items:4
+         }
+      }
+    })
+    //popular teacher section end
