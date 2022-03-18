@@ -1,0 +1,31 @@
+   // owl carousel script start
+    $('.js-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:4000,
+    stagePadding:7,
+    margin:8,
+    animateOut:'fadeOut',
+    animateIn:'fadeIn',
+    nav:false,
+    autoplayHoverPause:true,
+    items:3,
+    responsive:{
+    0:{
+    items:1,
+    nav:false,
+    loop:true
+    },
+    600:{
+    items:2,
+    nav:false,
+    loop:true
+    },
+    1000:{
+    items:3,
+    nav:false,
+    loop:true
+    }
+    }
+    });
+    // owl carousel script end

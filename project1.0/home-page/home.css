@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+.logo{
+	font-family: 'Acme', sans-serif;
+}
 .section{
-	padding: 0rem 0;
+	padding: 1rem 0;
 }
 .heading{
 	color: #000;
 }
 .owl-carousel.major-carousel .owl-stage-outer{
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 .owl-carousel.major-carousel .owl-nav .owl-prev,
 .owl-carousel.major-carousel .owl-nav .owl-next{
@@ -50,7 +57,7 @@
 	display: block;
 }
 .media-custom img{
-	height: 15rem;
+	height: 20rem;
 	object-fit: cover;
 	border-radius: 5px;
 	-webkit-transition: .3s all ease;
@@ -63,8 +70,8 @@
 	border-radius: 5px;
 }
 .media-custom:focus img,.media-custom:hover img{
-	-webkit-transform:scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+	-webkit-transform:scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
 	border-radius: 5px;
 }
