@@ -112,19 +112,5 @@ html{
 	margin: 3px;
 }
 /*styling for plus dropdown start*/
-#plus-btn li{
-	transition: 1s ease-in-out;
-}
-#plus-btn li:hover>ul.dropdown-menu{
-	display: block;
-	transition: 1s ease-in-out;
-}
-.dropdown-submenu{
-	position: relative;
-}
-.dropdown-submenu>.dropdown-submenu{
-	top: 0;
-	margin-top: -5px;
-	left: 100%;
-}
+
 /*styling for plus dropdown end*/
